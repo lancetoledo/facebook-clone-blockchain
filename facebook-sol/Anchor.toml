@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+facebook_sol = "EsgFRxZjRnsgDuY7retJHAqmJzpvZVkmojMaS9gQo3Ao"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/lance/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
